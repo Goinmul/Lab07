@@ -1,19 +1,43 @@
-package edu.handong.csee.java.lab07.prob1;
-
+package edu.handong.csee.java.lab07.prob1; // a unique package name
 /**
  * @author HyunWoo Kwon
  * this is about calculating century, by using constructor.
+ * constructor is basically something that makes initializing(instanciating) easier.
+ * for example, if you had many integers under the YearCalculator class, you should initialize every integers by taking up many lines.
+ * but if you use constructor, you can just do it in one line. for example,
+ * 
+ * say that in the main you instantiated class YearCalculator nw = new YearCalculator();
+ * and you have bunch of integers a, b, c, d, ... , which you initialized to
+ * int a = 1
+ * int b = 2
+ * int c = 3 ... so on.
+ * 
+ * and you reasign the values of the intgers like
+ * nw.a = 1;
+ * nw.b = 4; .. so on.
+ * 
+ * but by using constructor, you can just do like this.
+ * 
+ * public YearCalculator (int a, int b, int c, ...) // Name of constructor = class name
+ * {
+ * 		a = 1;
+ * 		b = 4; ... so on
+ * }
+ * 
+ * and then instantiate them like YearCalculator m1 = new YearCalculator (1,4,5,...);
+ * sine they are instantiated, you can just use them.
+ * 
  */
-public class YearCalculator {
+public class YearCalculator { // class name
 
-	int year = 0;
+	int year = 0; // initializing an integer.
 
-	public YearCalculator() // looks similar to a method, but is a CONSTRUCTOR.
+	/*public YearCalculator() // looks similar to a method, but is a CONSTRUCTOR.
 	{
 		year = 0; // initializing integer to use it.
 	} // actually, this part is unnecessary(?).
-
-	public YearCalculator(int year)
+*/
+	public YearCalculator(int year) // the input year and this.year is different year!!!
 	{
 		this.year = year; // this means defining class' member variable 'year'.
 	}

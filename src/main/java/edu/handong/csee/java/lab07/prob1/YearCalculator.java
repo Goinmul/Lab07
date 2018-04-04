@@ -1,6 +1,5 @@
 package edu.handong.csee.java.lab07.prob1; // a unique package name
 /**
- * @author HyunWoo Kwon
  * this is about calculating century, by using constructor.
  * constructor is basically something that makes initializing(instanciating) easier.
  * for example, if you had many integers under the YearCalculator class, you should initialize every integers by taking up many lines.
@@ -26,7 +25,7 @@ package edu.handong.csee.java.lab07.prob1; // a unique package name
  * 
  * and then instantiate them like YearCalculator m1 = new YearCalculator (1,4,5,...);
  * sine they are instantiated, you can just use them.
- * 
+ * @author HyunWoo Kwon
  */
 public class YearCalculator { // class name
 

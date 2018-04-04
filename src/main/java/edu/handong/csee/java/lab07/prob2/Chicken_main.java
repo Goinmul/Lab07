@@ -22,4 +22,4 @@ public class Chicken_main {
 		System.out.println(menu3.getName() + "'s rating is " + menu3.getStars());
 	} // end of main
 
-} // end of class.
+} // end of class..

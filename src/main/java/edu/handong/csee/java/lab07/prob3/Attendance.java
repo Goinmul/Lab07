@@ -62,4 +62,4 @@ public class Attendance {
 		this.missed = missed;
 	}
 
-} // end of class.
+} // end of class..

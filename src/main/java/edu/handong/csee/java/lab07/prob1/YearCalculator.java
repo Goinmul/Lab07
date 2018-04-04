@@ -35,7 +35,7 @@ public class YearCalculator { // class name
 	{
 		year = 0; // initializing integer to use it.
 	} // actually, this part is unnecessary(?).
-*/
+	 */
 	public YearCalculator(int year) // the input year and this.year is different year!!!
 	{
 		this.year = year; // this means defining class' member variable 'year'.

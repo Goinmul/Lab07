@@ -51,4 +51,4 @@ public class Chicken {
 		this.stars = stars;
 	}
 	// just by clicking once, all the getters and setters are made!
-}
+}//end of class

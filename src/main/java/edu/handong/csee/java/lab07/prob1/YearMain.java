@@ -19,4 +19,4 @@ public class YearMain { // Class for main
 		yearNum = y1.calculator(); // Using method 'calculator' in the instantiated class 'YearCalculator'.
 		System.out.print("It is " + yearNum + "th century."); // showing a sentence.
 	} // end of main
-} // end of class
+} // end of class.

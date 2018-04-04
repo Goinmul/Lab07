@@ -51,6 +51,6 @@ public class YearCalculator { // class name
 			year = (year/100)+1; // at first thought about (int), but it is the same.
 		}
 		return year; // returning calculated 'year' integer. should be the century number.
-	}
+	} // end of main
 
-}
+}// end of class
